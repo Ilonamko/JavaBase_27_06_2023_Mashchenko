@@ -24,6 +24,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 *.iml
-.idea\
+.idea/
 *.mp4
-
