@@ -1,7 +1,7 @@
 package ua.hillel.mashchenko.lessons.lesson5;
 
 
-public class Homework5 {
+public class Homework {
 
     public static void main(String[] args) {
 
