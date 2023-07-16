@@ -36,7 +36,7 @@ public class Homework {
           System.out.println("Los Angeles Lakers Win!");
         }
 
-        System.out.println("Winning Team = " + team1 + "gained" + chicagoBullsAvg + "poins");
+        System.out.println("Winning Team = " + team1 + " gained " + chicagoBullsAvg + " poins ");
         }
 }
 
