@@ -1,8 +1,8 @@
 package ua.hillel.mashchenko.lessons.lesson5;
 
-import java.util.Scanner;
 
 public class Homework5 {
+
     public static void main(String[] args) {
 
         String team1 = "Chicago Bulls";
