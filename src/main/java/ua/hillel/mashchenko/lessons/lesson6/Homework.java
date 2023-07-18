@@ -10,7 +10,7 @@ public class Homework {
 
         int userValue = 5;
 
-        System.out.println("Please enter from 1 to 10");
+        System.out.println("Please enter from 0 to 10");
 
         while (true) {
             if (scanner.hasNextInt()) {
