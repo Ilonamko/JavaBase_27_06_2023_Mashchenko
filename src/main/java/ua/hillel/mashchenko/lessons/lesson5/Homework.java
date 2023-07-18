@@ -7,7 +7,7 @@ public class Homework {
 
     public static void main(String[] args) {
 
-        String team1 = "Chicago Bulls";
+
         int chicagoBullsTeam = 5;
         int cbPlayer1 = 3;
         int cbPlayer2 = 5;
@@ -16,6 +16,13 @@ public class Homework {
         int cbPlayer5 = 2;
 
         Scanner scanner = new Scanner(System.in);
+
+        String str = scanner.nextLine();
+        int team1 = scanner.nextInt();
+        System.out.println(team1);
+        System.out.println(str);
+
+
         if (scanner.hasNextInt()) {
             cbPlayer1 = scanner.nextInt();
         } else {
@@ -66,7 +73,6 @@ public class Homework {
 
         System.out.println("Chicago Bulls Player 5 = " + cbPlayer5);
 
-        String team2 = "Los Angeles Lakers";
         int losAngelesLakersTeam = 5;
         int lalPlayer1 = 2;
         int lalPlayer2 = 5;
@@ -74,6 +80,10 @@ public class Homework {
         int lalPlayer4 = 3;
         int lalPlayer5 = 2;
 
+
+        int team2 = scanner.nextInt();
+        System.out.println(team2);
+        System.out.println(str);
 
         if (scanner.hasNextInt()) {
             lalPlayer1 = scanner.nextInt();
