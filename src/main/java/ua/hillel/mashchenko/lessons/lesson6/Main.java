@@ -34,7 +34,7 @@ public class Main {
 //            i++;
 //        } while (i < 5);
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 
 //        int userValue = -1;
 //
@@ -51,22 +51,29 @@ public class Main {
 //
 //        System.out.println("user value = " + userValue);
 
-        int i = 10;
-        while (i <= 0) {
+//        int i = 10;
+//        while (i <= 0) {
+//
+//            int randomNum = (int) (Math.random() * 101);
+//            if (randomNum >= 85 && randomNum <= 100) {
+//                System.out.println("WIN!!");
+//                break;
+//            }
+//            System.out.println(i);
+//
+//            if (1 == 0) {
+//                System.out.println("BOOOM");
+//            }
+//
+//            i--;
+//        }
 
-            int randomNum = (int) (Math.random() * 101);
-            if (randomNum >= 85 && randomNum <= 100) {
-                System.out.println("WIN!!");
-                break;
-            }
-            System.out.println(i);
+        int a = 140;
+        System.out.println(a);
+        System.out.println(a / 100);
+        System.out.println((a % 100) / 10);
+        System.out.println(a % 10);
 
-            if (1 == 0) {
-                System.out.println("BOOOM");
-            }
-
-            i--;
-        }
 
     }
 }
