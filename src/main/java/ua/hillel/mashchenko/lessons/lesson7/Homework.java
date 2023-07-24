@@ -8,7 +8,7 @@ public class Homework {
 
         int [] team1Age = new int[25];
         for (int i = 0; i < team1Age.length; i++) {
-            team1Age[i] = (int) (Math.random() * 40) + 18;
+            team1Age[i] = (int) (Math.random() * 23) + 18;
         }
 
         for (int i = 0; i < team1Age.length; i++) {
@@ -26,7 +26,7 @@ public class Homework {
 
         int [] team2Age = new int[25];
         for (int i = 0; i < team2Age.length; i++) {
-            team2Age[i] = (int) (Math.random() * 40) + 18;
+            team2Age[i] = (int) (Math.random() * 23) + 18;
         }
 
         for (int i = 0; i < team2Age.length; i++) {
