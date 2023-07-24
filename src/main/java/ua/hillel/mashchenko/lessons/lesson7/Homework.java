@@ -19,7 +19,6 @@ public class Homework {
         int sumTeam1age = 0;
         for (int i = 0; i < team1Age.length; i ++) {
             sumTeam1age += team1Age[i];
-            sumTeam1age = sumTeam1age + team1Age[i];
         }
 
         int average = sumTeam1age / 25;
@@ -36,9 +35,8 @@ public class Homework {
         System.out.println(Arrays.toString(team2Age));
 
         int sumTeam2age = 0;
-        for (int i = 0; i < team2Age.length; i ++) {
+        for (int i = 0; i < team2Age.length; i++) {
             sumTeam2age += team2Age[i];
-            sumTeam2age = sumTeam2age + team2Age[i];
         }
 
         int average2 = sumTeam2age / 25;
